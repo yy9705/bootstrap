@@ -96,16 +96,20 @@ The `.disabled` class uses `pointer-events: none` to try to disable the link fun
 
 ## Block buttons
 
-Apply the `.btn-block` class to the immediate parent of a group of buttons with `.btn` to stack them vertically. Block button classes are responsive as of Bootstrap 5, allowing you to have buttons that **start stacked** and then move to their normal `inline-block` behavior.
+Apply the `.btn-block` class to the immediate parent of a group of buttons with `.btn` to stack them vertically. Block button classes are responsive as of Bootstrap 5, allowing you to have buttons that **start stacked** and then move to their normal `inline-block` behavior at the specificed breakpoint.
 
-Classes are available across every grid breakpoint in Bootstrap:
+Classes are available across every grid breakpoint in Bootstrap with `max-width` media queries.
 
-- `.btn-block`
-- `.btn-block-sm`
-- `.btn-block-md`
-- `.btn-block-lg`
-- `.btn-block-xl`
-- `.btn-block-xxl`
+{{< bs-table "table text-left" >}}
+| Class | Behavior |
+| --- | --- |
+| `.btn-block` | Always vertically stacked |
+| `.btn-block-sm` | Vertically stacked until the `sm` breakpoint |
+| `.btn-block-md` | Vertically stacked until the `md` breakpoint |
+| `.btn-block-lg` | Vertically stacked until the `lg` breakpoint |
+| `.btn-block-xl` | Vertically stacked until the `xl` breakpoint |
+| `.btn-block-xxl` | Vertically stacked until the `xxl` breakpoint |
+{{< /bs-table >}}
 
 This approach allows you to use create complex button layouts, and modify behaviors further with utilities.
 

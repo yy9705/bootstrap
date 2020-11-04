@@ -21,11 +21,11 @@ const pkg = require('../package.json')
 
 sh.config.fatal = true
 
-const configFile = path.join(__dirname, '../_config.yml')
+const configFile = path.join(__dirname, '../config.yml')
 
 // Array of objects which holds the files to generate SRI hashes for.
 // `file` is the path from the root folder
-// `configPropertyName` is the _config.yml variable's name of the file
+// `configPropertyName` is the config.yml variable's name of the file
 const files = [
   {
     file: 'dist/css/bootstrap.min.css',

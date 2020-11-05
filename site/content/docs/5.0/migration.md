@@ -11,7 +11,7 @@ toc: true
 
 ### Browser support
 
-- Dropped support for Microsoft Legacy Edge. See [here](#browser-support-1) for the previous browser support changes.
+- Dropped support for Microsoft Edge Legacy. See [here](#browser-support-1) for the previous browser support changes.
 
 ### Colors
 
